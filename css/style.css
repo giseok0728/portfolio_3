@@ -681,6 +681,7 @@
 }
 
 .bot_img_box{
+    border-radius: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -688,6 +689,10 @@
     height: 400px;
     background: url(../img/bottom_banner.jpg)center center no-repeat;
 }
+.youtube_box > iframe{
+    border-radius: 25px;
+}
+
 
 .bot_img_box > img{
     width: 200px;
@@ -718,6 +723,7 @@
 
 
 /* 담채원 스토리 & 알쓸신김 끝 */
+
 
 
 
@@ -1505,7 +1511,10 @@
 
     .youtube_box > iframe{
         height: 300px;
+        border-radius: 25px;
     }
+
+    
 
     .footer{
         margin-top: 120px;
@@ -1597,9 +1606,17 @@
     }
 
     .item_photo_box{
+        width: 115px;
+        height: 115px;
+    }
+
+    .md_item .item_photo_box{
         width: 95px;
         height: 95px;
     }
+
+
+
     .bot_banner_wrap .title_bot > h3 {
         font-size: 20px;
     }
